@@ -1,5 +1,5 @@
 empire_init_add_technologies = {
 	events = {
-		auto_game_start.1
+		void_game_start.1
 	}
 }
