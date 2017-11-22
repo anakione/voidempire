@@ -1,0 +1,15 @@
+civic_void_empire = {
+	modification = no
+	description = "civic_void_empire"
+    potential = { authority = { NOT = { value = auth_machine_intelligence } } }
+    possible = {
+        civics = {
+			NOR = {
+				value = civic_mechanists
+			}
+		}
+    }
+    modifier = {
+        pop_environment_tolerance = -0.80
+    }
+}

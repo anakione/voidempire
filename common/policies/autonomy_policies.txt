@@ -1,0 +1,253 @@
+autonomy_policy = {
+	potential = {
+		always = yes
+	}
+	
+    option = {
+		name = "autonomy_0"
+		
+		policy_flags = {autonomy_flag_0}
+        modifier = {
+		}
+		
+		valid = {
+            OR = {
+                has_policy_flag = autonomy_flag_0
+                has_policy_flag = autonomy_flag_1
+            }
+		}
+		
+		AI_weight = {
+			factor = 10
+		}
+	}	
+    
+    option = {
+		name = "autonomy_1"
+		
+		policy_flags = {autonomy_flag_1}
+        modifier = {
+			country_core_sector_system_cap = -1
+            country_resource_minerals_mult = 0.03
+            country_resource_energy_mult = 0.03
+		}
+		
+		valid = {
+            OR = {
+                has_policy_flag = autonomy_flag_0
+                has_policy_flag = autonomy_flag_1
+                has_policy_flag = autonomy_flag_2
+            }
+		}
+		
+		AI_weight = {
+			factor = 0
+		}
+	}	
+	
+	option = {
+		name = "autonomy_2"
+		
+		policy_flags = {autonomy_flag_2}
+        modifier = {
+            country_core_sector_system_cap = -2
+            country_resource_minerals_mult = 0.06
+            country_resource_energy_mult = 0.06
+		}
+		
+		valid = {
+            OR = {
+                has_policy_flag = autonomy_flag_1
+                has_policy_flag = autonomy_flag_2
+                has_policy_flag = autonomy_flag_3
+            }
+		}
+		
+		AI_weight = {
+			factor = 0
+		}
+	}
+	
+	option = {
+		name = "autonomy_3"
+		
+		policy_flags = {autonomy_flag_3}
+        modifier = {
+            country_core_sector_system_cap = -3
+            country_resource_minerals_mult = 0.09
+            country_resource_energy_mult = 0.09
+		}
+		
+		valid = {
+            OR = {
+                has_policy_flag = autonomy_flag_2
+                has_policy_flag = autonomy_flag_3
+                has_policy_flag = autonomy_flag_4
+            }
+		}
+		
+		AI_weight = {
+			factor = 0
+		}
+	}
+
+    option = {
+		name = "autonomy_4"
+		
+		policy_flags = {autonomy_flag_4}
+        modifier = {
+            country_core_sector_system_cap = -4
+            country_resource_minerals_mult = 0.12
+            country_resource_energy_mult = 0.12
+		}
+		
+		valid = {
+            OR = {
+                has_policy_flag = autonomy_flag_3
+                has_policy_flag = autonomy_flag_4
+                has_policy_flag = autonomy_flag_5
+            }
+		}
+		
+		AI_weight = {
+			factor = 0
+		}
+	}
+
+    option = {
+		name = "autonomy_5"
+		
+		policy_flags = {autonomy_flag_5}
+        modifier = {
+            country_core_sector_system_cap = -5
+            country_resource_minerals_mult = 0.15
+            country_resource_energy_mult = 0.15
+		}
+		
+		valid = {
+            OR = {
+                has_policy_flag = autonomy_flag_4
+                has_policy_flag = autonomy_flag_5
+                has_policy_flag = autonomy_flag_6
+            }
+		}
+		
+		AI_weight = {
+			factor = 0
+		}
+	}
+
+    option = {
+		name = "autonomy_6"
+		
+		policy_flags = {autonomy_flag_6}
+        modifier = {
+            country_core_sector_system_cap = -6
+            country_resource_minerals_mult = 0.18
+            country_resource_energy_mult = 0.18
+		}
+		
+		valid = {
+            OR = {
+                has_policy_flag = autonomy_flag_5
+                has_policy_flag = autonomy_flag_6
+                has_policy_flag = autonomy_flag_7
+            }
+		}
+		
+		AI_weight = {
+			factor = 0
+		}
+	}
+
+    option = {
+		name = "autonomy_7"
+		
+		policy_flags = {autonomy_flag_7}
+        modifier = {
+            country_core_sector_system_cap = -7
+            country_resource_minerals_mult = 0.21
+            country_resource_energy_mult = 0.21
+		}
+		
+		valid = {
+            OR = {
+                has_policy_flag = autonomy_flag_6
+                has_policy_flag = autonomy_flag_7
+                has_policy_flag = autonomy_flag_8
+            }
+		}
+		
+		AI_weight = {
+			factor = 0
+		}
+	}
+
+    option = {
+		name = "autonomy_8"
+		
+		policy_flags = {autonomy_flag_8}
+        modifier = {
+            country_core_sector_system_cap = -8
+            country_resource_minerals_mult = 0.24
+            country_resource_energy_mult = 0.24
+		}
+		
+		valid = {
+            OR = {
+                has_policy_flag = autonomy_flag_7
+                has_policy_flag = autonomy_flag_8
+                has_policy_flag = autonomy_flag_9
+            }
+		}
+		
+		AI_weight = {
+			factor = 0
+		}
+	}
+
+    option = {
+		name = "autonomy_9"
+		
+		policy_flags = {autonomy_flag_9}
+        modifier = {
+            country_core_sector_system_cap = -9
+            country_resource_minerals_mult = 0.27
+            country_resource_energy_mult = 0.27
+		}
+		
+		valid = {
+            OR = {
+                has_policy_flag = autonomy_flag_8
+                has_policy_flag = autonomy_flag_9
+                has_policy_flag = autonomy_flag_10
+            }
+		}
+		
+		AI_weight = {
+			factor = 0
+		}
+	}
+
+    option = {
+		name = "autonomy_10"
+		
+		policy_flags = {autonomy_flag_10}
+        modifier = {
+            country_core_sector_system_cap = -10
+            country_resource_minerals_mult = 0.30
+            country_resource_energy_mult = 0.30
+		}
+		
+		valid = {
+            OR = {
+                has_policy_flag = autonomy_flag_9
+                has_policy_flag = autonomy_flag_10
+            }
+		}
+		
+		AI_weight = {
+			factor = 0
+		}
+	}
+}

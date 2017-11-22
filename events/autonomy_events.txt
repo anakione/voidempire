@@ -1,0 +1,17 @@
+namespace = sectorboost
+
+planet_event = {
+	id = sectorboost.1
+	hide_window = yes
+	trigger = {
+        NOT = { has_modifier = "Sector_boost" }
+		is_colony = yes
+        sector_controlled = yes
+	}
+	immediate = {
+		add_modifier = {
+			modifier = "Sector_boost"
+			days = 360
+		}
+	}
+}
