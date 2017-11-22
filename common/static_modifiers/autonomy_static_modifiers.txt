@@ -1,4 +1,0 @@
-Sector_boost = {
-	tile_resource_energy_mult = 0.20
-    tile_resource_minerals_mult = 0.20
-}
