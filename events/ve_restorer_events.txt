@@ -1,0 +1,264 @@
+namespace = ve_restorer_events
+
+@ve_restorer_megastructure_reward = 48
+@ve_restorer_megastructure_reward_min = 800
+@ve_restorer_megastructure_reward_max = 6000
+
+### Event Triggered by Anomaly
+### Initiates Research Project
+ship_event = {
+    id = ve_restorer_events.1
+    title = ve_restorer_events.1.name
+    desc = ve_restorer_events.1.desc
+    picture = GFX_evt_city_ruins
+    location = FROM
+    is_triggered_only = yes
+    
+    option = {
+        name = ve_restorer_events.1.a
+        trigger = {
+            owner = {
+                has_civic = civic_restoration_specialist
+            }
+        }
+        FROM = {
+            enable_special_project = {
+                name = "ve_RESTORER_PROJECT"
+                location = this
+                owner = root.owner
+            }
+        }
+    }
+    option = {
+        name = ve_restorer_events.1.b
+    }
+}
+
+
+### Event Triggered by Research Project
+ship_event = {
+    id = ve_restorer_events.2
+    title = ve_restorer_events.2.name
+    desc = ve_restorer_events.2.desc
+    is_triggered_only = yes
+    hide_window = yes
+    immediate = {
+        owner = {
+            country_event = { id = ve_restorer_events.3 }
+        }
+    }
+}
+
+### Starts the restoration of your home system
+country_event = {
+    id = ve_restorer_events.3
+    title = ve_restorer_events.3.name
+    desc = ve_restorer_events.3.desc
+    picture = GFX_evt_city_ruins
+    show_sound = event_radio_chatter
+    is_triggered_only = yes
+    option = {
+        name = ve_restorer_events.3.a
+        trigger = {
+            has_civic = civic_restoration_specialist
+        }
+        give_technology = { tech = tech_mega_engineering }
+        add_minerals = 20000
+        add_influence = -50
+        set_country_flag = restoring_starting_system_1
+        add_modifier = {
+            modifier = "ve_restorer_get_started"
+            days = 3600
+        }
+    }
+    option = {
+        name = ve_restorer_events.3.b
+        add_influence = 100
+    }
+}
+
+### First Ringworld Restored - Trigger Delay
+country_event = {
+    id = ve_restorer_events.4
+    title = ve_restorer_events.4
+    desc = ve_restorer_events.4
+    is_triggered_only = yes
+    hide_window = yes
+    trigger = {
+        has_civic = civic_restoration_specialist
+        has_country_flag = restoring_starting_system_1
+    }
+    immediate = {
+        country_event = { id = ve_restorer_events.5 days=30 }
+    }
+}
+
+### First Ringworld Restored
+country_event = {
+    id = ve_restorer_events.5
+    title = ve_restorer_events.5.name
+    desc = ve_restorer_events.5.desc
+    picture = GFX_evt_city_ruins
+    show_sound = event_radio_chatter
+    is_triggered_only = yes
+
+    trigger = {
+        has_civic = civic_restoration_specialist
+        has_country_flag = restoring_starting_system_1
+    }
+
+    option = {
+        name = ve_restorer_events.5.a
+        trigger = {
+            has_civic = civic_restoration_specialist
+        }
+        add_minerals = 20000
+        add_influence = -30
+        remove_country_flag = restoring_starting_system_1
+        set_country_flag = restoring_starting_system_2
+        add_modifier = {
+            modifier = "ve_restorer_get_started"
+            days = 3600
+        }
+    }
+}
+
+### Second Ringworld Restored - Trigger Delay
+country_event = {
+    id = ve_restorer_events.6
+    title = ve_restorer_events.6
+    desc = ve_restorer_events.6
+    is_triggered_only = yes
+    hide_window = yes
+    trigger = {
+        has_civic = civic_restoration_specialist
+        has_country_flag = restoring_starting_system_2
+    }
+    immediate = {
+        country_event = { id = ve_restorer_events.7 days=30 }
+    }
+}
+
+### Second Ringworld Restored
+country_event = {
+    id = ve_restorer_events.7
+    title = ve_restorer_events.7.name
+    desc = ve_restorer_events.7.desc
+    picture = GFX_evt_city_ruins
+    show_sound = event_radio_chatter
+    is_triggered_only = yes
+
+    trigger = {
+        has_civic = civic_restoration_specialist
+        has_country_flag = restoring_starting_system_2
+    }
+
+    option = {
+        name = ve_restorer_events.7.a
+        trigger = {
+            has_civic = civic_restoration_specialist
+        }
+        add_minerals = 20000
+        add_influence = -30
+        remove_country_flag = restoring_starting_system_2
+        set_country_flag = restoring_starting_system_3
+        add_modifier = {
+            modifier = "ve_restorer_get_started"
+            days = 3600
+        }
+    }
+}
+
+### Third Ringworld Restored - Trigger Delay
+country_event = {
+    id = ve_restorer_events.8
+    title = ve_restorer_events.8
+    desc = ve_restorer_events.8
+    is_triggered_only = yes
+    hide_window = yes
+    trigger = {
+        has_civic = civic_restoration_specialist
+        has_country_flag = restoring_starting_system_3
+    }
+    immediate = {
+        country_event = { id = ve_restorer_events.9 days=30 }
+    }
+}
+
+### Third Ringworld Restored - Complete
+country_event = {
+    id = ve_restorer_events.9
+    title = ve_restorer_events.9.name
+    desc = ve_restorer_events.9.desc
+    picture = GFX_evt_city_ruins
+    show_sound = event_radio_chatter
+    is_triggered_only = yes
+
+    trigger = {
+        has_civic = civic_restoration_specialist
+        has_country_flag = restoring_starting_system_3
+    }
+
+    option = {
+        name = ve_restorer_events.9.a
+        trigger = {
+            has_civic = civic_restoration_specialist
+        }
+        remove_country_flag = restoring_starting_system_3
+        set_country_flag = restored_starting_system
+        add_influence = 50
+        add_monthly_resource_mult = {
+            resource = unity
+            value = @ve_restorer_megastructure_reward
+            min = @ve_restorer_megastructure_reward_min
+            max = @ve_restorer_megastructure_reward_max
+        }
+    }
+}
+
+### Megastructure Restored - Trigger Delay
+country_event = {
+    id = ve_restorer_events.10
+    title = ve_restorer_events.10
+    desc = ve_restorer_events.10
+    is_triggered_only = yes
+    hide_window = yes
+    trigger = {
+        has_civic = civic_restoration_specialist
+        has_country_flag = restored_starting_system
+        from = {
+            not = { is_megastructure_type = habitat_0 }
+        }
+    }
+    immediate = {
+        country_event = { id = ve_restorer_events.11 days = 30 }
+    }
+}
+
+### Event Triggered by completing Megastructure
+### Gives Unity Boost
+# A Megastructure has been built
+# Root = Country
+# From = Megastructure
+country_event = {
+    id = ve_restorer_events.11
+    title = ve_restorer_events.11.name
+    desc = ve_restorer_events.11.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_civic = civic_restoration_specialist
+        has_country_flag = restored_starting_system
+    }
+
+    option = {
+        name = ve_restorer_events.11.a
+
+        add_monthly_resource_mult = {
+            resource = unity
+            value = @ve_restorer_megastructure_reward
+            min = @ve_restorer_megastructure_reward_min
+            max = @ve_restorer_megastructure_reward_max
+        }
+    }
+}

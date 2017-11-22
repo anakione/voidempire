@@ -1,0 +1,35 @@
+namespace = ve_wrong_system_init_events
+
+# pulse event that checks for empires that chose the wrong initialization
+event = {
+    id = ve_wrong_system_init_events.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        every_country = {
+            limit = {
+                has_civic = civic_restoration_specialist
+                NOT = {
+                    has_country_flag = ve_ignore_wrong_system_warning
+                }
+            }
+            country_event = { id = ve_wrong_system_init_events.2 }
+        }
+    }
+}
+
+country_event = {
+    id = ve_wrong_system_init_events.2
+    title = ve_wrong_system_init_events.2.name
+    desc = ve_wrong_system_init_events.2.desc
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = {
+        has_civic = civic_restoration_specialist
+        NOT = {
+            has_country_flag = ve_ignore_wrong_system_warning
+        }
+    }
+}

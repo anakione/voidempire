@@ -1,0 +1,34 @@
+### Megastructure Rebuilding Triggers
+
+on_megastructure_built = {
+    events = {
+        ve_restorer_events.4
+        ve_restorer_events.6
+        ve_restorer_events.8
+        ve_restorer_events.10
+    }
+}
+
+on_megastructure_upgraded = {
+	events = {
+        ve_restorer_events.4
+        ve_restorer_events.6
+        ve_restorer_events.8
+        ve_restorer_events.10
+	}
+}
+
+###  Colonization Triggers
+
+on_colonization_started = {
+    events = {
+        ve_no_colonization_events.1
+    }
+}
+
+on_bi_yearly_pulse = {
+    events = {
+        ve_no_colonization_events.2
+        ve_wrong_system_init_events.1
+    }
+}

@@ -1,0 +1,7 @@
+ve_penalize_for_bad_colonies = {
+    add_influence = -50
+    add_modifier = {
+        modifier = "ve_restorer_do_not_colonize_terrestrial_worlds"
+        days = 360
+    }
+}

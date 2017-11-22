@@ -1,0 +1,9 @@
+# Restorer Anomaly
+
+anomaly = {
+    category = "ve_restorer_anomalies_category"
+    event = ve_restorer_events.1
+    potential = {
+        always = yes
+    }
+}
