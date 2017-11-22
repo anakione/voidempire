@@ -1,8 +1,4 @@
-empire_init_add_technologies = {
-    events = {
-        ve_game_start.1
-    }
-}
+### Megastructure Rebuilding Triggers
 
 on_megastructure_built = {
     events = {
@@ -20,4 +16,19 @@ on_megastructure_upgraded = {
         ve_restorer_events.8
         ve_restorer_events.10
 	}
+}
+
+###  Colonization Triggers
+
+on_colonization_started = {
+    events = {
+        ve_no_colonization_events.1
+    }
+}
+
+on_bi_yearly_pulse = {
+    events = {
+        ve_no_colonization_events.2
+        ve_wrong_system_init_events.1
+    }
 }

@@ -1,0 +1,71 @@
+namespace = ve_no_colonization_events
+
+# A void empire is trying to colonize a world it shouldn't!
+planet_event = {
+    id = ve_no_colonization_events.1
+    title = ve_no_colonization_events.1.3.name
+    desc = ve_no_colonization_events.1.3.description
+    picture = GFX_evt_big_landing_ship
+    is_triggered_only = yes
+
+    trigger = {
+        owner = {
+            has_civic = civic_restoration_specialist
+        }
+        NOT = {
+            OR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_ringworld_habitable
+            }
+        }
+    }
+
+    option = {
+        name = ve_no_colonization_events.1.a
+        owner = {
+            ve_penalize_for_bad_colonies = yes
+        }
+    }
+}
+
+# Pulse event to check and see if you own planets you shouldn't
+event = {
+    id = ve_no_colonization_events.2
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        every_country = {
+            limit = {
+                has_civic = civic_restoration_specialist
+            }        
+            country_event = { id = ve_no_colonization_events.3 }
+        }
+    }
+}
+
+# event fires if you colonized a planet you shouldn't have
+country_event = {
+    id = ve_no_colonization_events.3
+    title = ve_no_colonization_events.3.name
+    desc = ve_no_colonization-events.3.desc
+    picture = GFX_evt_alien_propaganda
+    is_triggered_only = yes
+
+    trigger = {
+        has_civic = civic_restoration_specialist
+        any_owned_planet = {
+            NOT = {
+                OR = {
+                    is_planet_class = pc_habitat
+                    is_planet_class = pc_ringworld_habitable
+                }
+            }
+        }
+    }
+
+    option = {
+        name = ve_no_colonization_events.3.a
+        ve_penalize_for_bad_colonies = yes
+    }
+}

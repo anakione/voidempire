@@ -1,3 +1,9 @@
 ve_restorer_get_started = {
     megastructure_build_speed_mult = 4
 }
+
+ve_restorer_do_not_colonize_terrestrial_worlds = {
+    megastructure_build_speed_mult = -4
+    country_resource_influence_mult = -0.5
+    pop_happiness = -0.3
+}

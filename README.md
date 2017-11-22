@@ -18,7 +18,6 @@
 
 ** To Do:**
 - Localisation of events, civics, systems, planets
-- Event that adds unrest to terrestial planets you control
 - Event that warns the user if they chose a voidborne civic and didn't pick the associated starting system
 
 
