@@ -14,7 +14,7 @@ civic_restoration_specialist = {
             }
         }
     }
-    # description = "civic_tooltip_restoration_specialist_effects"
+    description = "civic_tooltip_restoration_specialist_effects"
     modifier = {
         pop_environment_tolerance = -1.00
         pc_nuked_habitability = -1.00

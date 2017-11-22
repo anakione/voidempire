@@ -38,8 +38,6 @@ ship_event = {
 ### Event Triggered by Research Project
 ship_event = {
     id = ve_restorer_events.2
-    title = ve_restorer_events.2.name
-    desc = ve_restorer_events.2.desc
     is_triggered_only = yes
     hide_window = yes
     immediate = {
@@ -80,8 +78,6 @@ country_event = {
 ### First Ringworld Restored - Trigger Delay
 country_event = {
     id = ve_restorer_events.4
-    title = ve_restorer_events.4
-    desc = ve_restorer_events.4
     is_triggered_only = yes
     hide_window = yes
     trigger = {

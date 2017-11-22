@@ -24,12 +24,21 @@ country_event = {
     title = ve_wrong_system_init_events.2.name
     desc = ve_wrong_system_init_events.2.desc
     is_triggered_only = yes
-    hide_window = yes
 
     trigger = {
         has_civic = civic_restoration_specialist
         NOT = {
             has_country_flag = ve_ignore_wrong_system_warning
         }
+        NOT = {
+            any_system_within_border = {
+                has_star_flag = ve_star_flag_phoenix_system
+            }
+        }
+    }
+
+    option = {
+        name = ve_wrong_system_init_events.2.a
+        set_country_flag = ve_ignore_wrong_system_warning
     }
 }

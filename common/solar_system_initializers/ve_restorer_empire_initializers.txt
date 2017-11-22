@@ -4,9 +4,11 @@
 
 # Phoenix System
 ve_phoenix_start = {
-	usage = custom_empire
+	# name = "NAME_ve_Phoenix"
 	class = "sc_g"
-	name = "NAME_ve_Phoenix"
+	usage = custom_empire
+
+	flags = { ve_star_flag_phoenix_system }
 
 	planet = {
 		class = star
@@ -114,7 +116,7 @@ ve_phoenix_start = {
 
 ve_ashes_start = {
 	class = "sc_g"
-	name = "NAME_ve_Ashes"
+	# name = "NAME_ve_Ashes"
 	
 	planet = {
 		class = star
@@ -193,7 +195,7 @@ ve_ashes_start = {
 
 ve_colossus_start = {
 	class = "rl_standard_stars"
-	name = "NAME_ve_Colossus"
+	# name = "NAME_ve_Colossus"
 
 	planet = {
 		class = star

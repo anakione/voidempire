@@ -4,7 +4,7 @@ special_project = {
     days_to_research = 360
     tech_department = engineering_technology
     picture = GFX_evt_city_ruins
-    
+    icon = "gfx/interface/icons/situation_log/situation_log_engineering.dds"
     event_scope = ship_event
     requirements = {
         shipclass_science_ship = 1
