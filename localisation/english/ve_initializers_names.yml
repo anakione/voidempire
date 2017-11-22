@@ -1,0 +1,10 @@
+l_english:
+ NAME_ve_Phoenix:0 "Phoenix"
+ NAME_ve_Ashes:0 "Ashes"
+ NAME_ve_Colossus:0 "Colossus"
+ 
+ ve_phoenix_start_NAME:0 "Phoenix System"
+ ve_phoenix_start_DESC:0 "The unique Phoenix system intended for use with the Restoration Specialist voidborn civic.\n\n$system_initializer_DESC$"
+
+ ve_eden_start_NAME:0 "Eden System"
+ ve_eden_start_DESC:0 "The unique Eden system intended for use with the Planetary Conservationist voidborn civic.\n\n$system_initializer_DESC$"

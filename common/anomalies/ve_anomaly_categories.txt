@@ -1,0 +1,17 @@
+# Restorer Anomaly Category
+
+anomaly_category = {
+	key = "ve_restorer_anomalies_category"
+	desc = "ve_restorer_anomalies_desc"
+	picture = GFX_evt_city_ruins
+	level = 1
+	
+	on_success = {
+	}
+
+	on_fail = {
+	}
+
+	on_critical_fail = {
+	}
+}

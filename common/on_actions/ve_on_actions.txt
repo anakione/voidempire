@@ -1,0 +1,23 @@
+empire_init_add_technologies = {
+    events = {
+        ve_game_start.1
+    }
+}
+
+on_megastructure_built = {
+    events = {
+        ve_restorer_events.4
+        ve_restorer_events.6
+        ve_restorer_events.8
+        ve_restorer_events.10
+    }
+}
+
+on_megastructure_upgraded = {
+	events = {
+        ve_restorer_events.4
+        ve_restorer_events.6
+        ve_restorer_events.8
+        ve_restorer_events.10
+	}
+}

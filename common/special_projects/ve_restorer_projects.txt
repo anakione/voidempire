@@ -1,0 +1,18 @@
+special_project = {
+    key = "ve_RESTORER_PROJECT"
+    cost = 0
+    days_to_research = 360
+    tech_department = engineering_technology
+    picture = GFX_evt_city_ruins
+    
+    event_scope = ship_event
+    requirements = {
+        shipclass_science_ship = 1
+        leader = scientist
+        skill = 1
+    }
+
+    on_success = {
+        ship_event = { id = ve_restorer_events.2 }
+    }
+}
