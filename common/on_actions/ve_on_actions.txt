@@ -26,9 +26,17 @@ on_colonization_started = {
     }
 }
 
-on_bi_yearly_pulse = {
+on_yearly_pulse = {
     events = {
         ve_no_colonization_events.2
+    }
+}
+
+### Wrong System Initializer Triggers
+
+on_game_start = {
+    events = {
+        ve_empire_init_events.1
         ve_wrong_system_init_events.1
     }
 }

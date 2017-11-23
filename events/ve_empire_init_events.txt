@@ -1,0 +1,38 @@
+namespace = ve_empire_init_events
+
+# pulse event that checks for empires that chose the wrong initialization
+event = {
+    id = ve_empire_init_events.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        every_country = {
+            limit = {
+                has_civic = civic_restoration_specialist
+                NOT = {
+                    has_country_flag = custom_start_screen
+                }
+            }
+            country_event = { id = ve_empire_init_events.2 }
+        }
+    }
+}
+
+# initialize custom_start_screen flag on all custom civics
+country_event = {
+    id = ve_empire_init_events.2
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        has_civic = civic_restoration_specialist
+        NOT = {
+            has_country_flag = custom_start_screen
+        }
+    }
+
+    immediate = {
+        set_country_flag = custom_start_screen
+    }
+}

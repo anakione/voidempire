@@ -1,0 +1,12 @@
+part = {
+    location = 3
+    localization = "VE_START_RESTORER"
+    trigger = {
+        OR = {
+            has_government = gov_restoration_court
+            has_government = gov_restoration_order
+            has_government = gov_restoration_committee
+            has_government = gov_restoration_assembly
+        }
+    }
+}

@@ -15,6 +15,9 @@ event = {
                 }
             }
             country_event = { id = ve_wrong_system_init_events.2 }
+
+            # only do this check once per country
+            set_country_flag = ve_ignore_wrong_system_warning
         }
     }
 }
@@ -23,6 +26,7 @@ country_event = {
     id = ve_wrong_system_init_events.2
     title = ve_wrong_system_init_events.2.name
     desc = ve_wrong_system_init_events.2.desc
+    picture = GFX_evt_ringworld
     is_triggered_only = yes
 
     trigger = {
@@ -30,9 +34,12 @@ country_event = {
         NOT = {
             has_country_flag = ve_ignore_wrong_system_warning
         }
-        NOT = {
-            any_system_within_border = {
-                has_star_flag = ve_star_flag_phoenix_system
+        any_owned_planet = {
+            NOT = {
+                OR = {
+                    is_planet_class = pc_habitat
+                    is_planet_class = pc_ringworld_habitable
+                }
             }
         }
     }

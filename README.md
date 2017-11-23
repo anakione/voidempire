@@ -18,9 +18,6 @@
 
 ** To Do:**
 - Civic icon
-- Images for restoration events
-- Localisation and images for no-colony events and modifiers
-- Event that warns the user if they chose a voidborne civic and didn't pick the associated starting system
 
 ** Not Implemented Yet:**
 

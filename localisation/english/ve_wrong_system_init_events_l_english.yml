@@ -1,0 +1,4 @@
+﻿l_english:
+ ve_wrong_system_init_events.2.name:0 "Wrong System Initializer"
+ ve_wrong_system_init_events.2.desc:0 "Empires with the Restoration Specialist civic are intended to be used with the special Phoenix system initializer. We highly recommend that you restart the game with this system intializer selected in the empire creation screen."
+ ve_wrong_system_init_events.2.a:0 "We should probably restart!"

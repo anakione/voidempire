@@ -1,0 +1,64 @@
+# Restoration Court
+gov_restoration_court = {
+	ruler_title = RT_HIGH_RESTORER
+	ruler_title_female = RT_HIGH_RESTORER_FEMALE
+	heir_title = HT_SENIOR_RESTORER
+	heir_title_female = HT_SENIOR_RESTORER_FEMALE
+
+	use_regnal_names = yes
+	dynastic_last_names = yes
+
+	possible = {
+		has_authority = auth_imperial
+		has_valid_civic = civic_restoration_specialist
+	}
+
+	weight = {
+		base = 2000
+	}
+}
+
+# Restoration Order
+gov_restoration_order = {
+	ruler_title = RT_LORD_RESTORER
+	ruler_title_female = RT_LADY_RESTORER
+
+	possible = {
+		has_authority = auth_dictatorial
+		has_valid_civic = civic_restoration_specialist
+	}
+
+	weight = {
+		base = 2000
+	}
+}
+
+# Restoration Committee
+gov_restoration_committee = {
+	ruler_title = RT_GRAND_RESTORER
+	ruler_title_female = RT_GRAND_RESTORER_FEMALE
+
+	possible = {
+		has_authority = auth_oligarchic
+		has_valid_civic = civic_restoration_specialist
+	}
+
+	weight = {
+		base = 2000
+	}
+}
+
+# Restoration Assembly
+gov_restoration_assembly = {
+	ruler_title = RT_PRIME_RESTORER
+	ruler_title_female = RT_PRIME_RESTORER_FEMALE
+
+	possible = {
+		has_authority = auth_democratic
+		has_valid_civic = civic_restoration_specialist
+	}
+
+	weight = {
+		base = 2000
+	}
+}

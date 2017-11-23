@@ -240,6 +240,7 @@ country_event = {
     id = ve_restorer_events.11
     title = ve_restorer_events.11.name
     desc = ve_restorer_events.11.desc
+    picture = GFX_evt_metropolis
     is_triggered_only = yes
 
     trigger = {
