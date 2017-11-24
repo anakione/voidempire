@@ -8,7 +8,7 @@
  civic_planetary_conservationist_desc:0 "This society believes it has a divine mission to keep the planets in this galaxy pristine and free from the spoilage of colonization."
 
  gov_restoration_court:0 "Restoration Court"
- gov_restoration_court_desc:0 "This government is a hereditary form of scientific rediscovery and restoration, where the ultimate responsibility of the monarch is to rediscovery and restoration of the lost wonders of the Age of Legends."
+ gov_restoration_court_desc:0 "This government is a hereditary form of scientific rediscovery and restoration, where the ultimate responsibility of the monarch is to rediscovery and restoration of the lost wonders of the §YAge of Legends§!."
 
  RT_HIGH_RESTORER:0 "High Restorer"
  RT_HIGH_RESTORER_FEMALE:0 "High Restorer"
@@ -16,19 +16,19 @@
  HT_SENIOR_RESTORER_FEMALE:0 "Senior Restorer"
 
  gov_restoration_order:0 "Restoration Order"
- gov_restoration_order_desc:0 "This government is an autocratic form of scientific rediscovery and restoration, where the ultimate responsibility of the despot is to rediscovery and restoration of the lost wonders of the Age of Legends."
+ gov_restoration_order_desc:0 "This government is an autocratic form of scientific rediscovery and restoration, where the ultimate responsibility of the despot is to rediscovery and restoration of the lost wonders of the §YAge of Legends§!."
  
  RT_LORD_RESTORER:0 "Lord Restorer"
  RT_LADY_RESTORER:0 "Lady Restorer"
 
  gov_restoration_committee:0 "Restoration Committee"
- gov_restoration_committee_desc:0 "This government is an oligarchic form of scientific rediscovery and restoration, where a scientific committee has been set up to oversee the rediscovery and restoration of the lost wonders of the Age of Legends."
+ gov_restoration_committee_desc:0 "This government is an oligarchic form of scientific rediscovery and restoration, where a scientific committee has been set up to oversee the rediscovery and restoration of the lost wonders of the §YAge of Legends§!."
  
  RT_GRAND_RESTORER:0 "Grand Restorer"
  RT_GRAND_RESTORER_FEMALE:0 "Grand Restorer"
 
  gov_restoration_assembly:0 "Restoration Assembly"
- gov_restoration_assembly_desc:0 "This government is a democratic form of scientific rediscovery and restoration, where individual citizens elect scientific representatives to oversee the rediscovery and restoration of the lost wonders of the Age of Legends."
+ gov_restoration_assembly_desc:0 "This government is a democratic form of scientific rediscovery and restoration, where individual citizens elect scientific representatives to oversee the rediscovery and restoration of the lost wonders of the §YAge of Legends§!."
 
  RT_PRIME_RESTORER:0 "Prime Restorer"
  RT_PRIME_RESTORER_FEMALE:0 "Prime Restorer"

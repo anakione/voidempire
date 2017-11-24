@@ -3,17 +3,17 @@
  ve_restorer_anomalies_desc:0 "Scans of this long-abandoned sector reveal a faint signal. Could this be a message from our glorious ancestors?"
 
  ve_restorer_events.1.name:0 "Recover Ancient Splendor"
- ve_restorer_events.1.desc:0 "Our science officers are giddy with excitement. After investigating scans of the long-abandoned sector, they have uncovered a well-preserved cache of knowledge and wealth stored away by the Ancients at the height of their power."
+ ve_restorer_events.1.desc:0 "Our science officers are giddy with excitement. After investigating scans of the long-abandoned sector, they have uncovered a well-preserved cache of knowledge and wealth stored away by the §YAncients§! at the height of their power."
  ve_restorer_events.1.a:0 "We must restore our rightful place in the galaxy!"
- ve_restorer_events.1.b:0 "What is this? If only we were Restoration Specialists..."
+ ve_restorer_events.1.b:0 "What is this? If only we were §YRestoration Specialists§!..."
 
  ve_RESTORER_PROJECT:0 "Recover Ancient Splendor"
  ve_RESTORER_PROJECT_DESC:0 "In the final moments before their society collapsed, our wise ancestors were able to safeguard a small portion of their knowledge and wealth. Now is the time to rebuild what was once lost!"
 
  ve_restorer_events.3.name:0 "Recover Ancient Splendor"
- ve_restorer_events.3.desc:0 "Detailed analysis of the cache left behind by the Ancient Ones shows that it is indeed possible to restore the wonders of the Age of Legends. The cache includes detailed blueprints of the Ring and an automated manufactury system."
+ ve_restorer_events.3.desc:0 "Detailed analysis of the cache left behind by the §YAncients§! shows that it is indeed possible to restore the wonders of the §YAge of Legends§!. The cache includes detailed blueprints of the Ring and an automated manufactury system."
  ve_restorer_events.3.a:0 "From the ashes, a Phoenix shall rise!"
- ve_restorer_events.3.b:0 "We will forge our own path, separate from the Ancients"
+ ve_restorer_events.3.b:0 "We will forge our own path, separate from the §YAncients§!"
 
  ve_restorer_get_started:0 "The Phoenix Rises!"
 
@@ -23,12 +23,12 @@
 
  ve_restorer_events.7.name:0 "Recover Ancient Splendor"
  ve_restorer_events.7.desc:0 "Our restoration efforts are proceeding smoothly. The automated repair facility has been greatly expanded and is ready to repair the next Sector."
- ve_restorer_events.7.a:0 "The Age of Legends will soon be upon us once again!"
+ ve_restorer_events.7.a:0 "The §YAge of Legends§! will soon be upon us once again!"
 
  ve_restorer_events.9.name:0 "Ancient Splendor Recovered"
- ve_restorer_events.9.desc:0 "The great Ring has been restored and the wonders of the Age of Legends are open to us once again. Now, we look to the stars!"
+ ve_restorer_events.9.desc:0 "The great Ring has been restored and the wonders of the §YAge of Legends§! are open to us once again. Now, we look to the stars!"
  ve_restorer_events.9.a:0 "Onwards!"
 
  ve_restorer_events.11.name:0 "Glorious Works Complete"
- ve_restorer_events.11.desc:0 "Our Supreme Architects have completed another masterpiece. Soon, we will surpass the Ancients!"
- ve_restorer_events.11.a:0 "We will usher in a new Age of Legends"
+ ve_restorer_events.11.desc:0 "Our Supreme Architects have completed another masterpiece. Soon, we will surpass the §YAncients§!!"
+ ve_restorer_events.11.a:0 "We will usher in a new §YAge of Legends§!"
