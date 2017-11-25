@@ -1,8 +1,8 @@
 namespace = ve_restorer_events
 
-@ve_restorer_megastructure_reward = 48
-@ve_restorer_megastructure_reward_min = 800
-@ve_restorer_megastructure_reward_max = 6000
+@ve_restorer_megastructure_reward = 60
+@ve_restorer_megastructure_reward_min = 1200
+@ve_restorer_megastructure_reward_max = 8000
 
 ### Event Triggered by Anomaly
 ### Initiates Research Project
@@ -109,7 +109,7 @@ country_event = {
             has_civic = civic_restoration_specialist
         }
         add_minerals = 20000
-        add_influence = -30
+        add_influence = -75
         remove_country_flag = restoring_starting_system_1
         set_country_flag = restoring_starting_system_2
         add_modifier = {
@@ -155,7 +155,7 @@ country_event = {
             has_civic = civic_restoration_specialist
         }
         add_minerals = 20000
-        add_influence = -30
+        add_influence = -75
         remove_country_flag = restoring_starting_system_2
         set_country_flag = restoring_starting_system_3
         add_modifier = {
@@ -202,7 +202,6 @@ country_event = {
         }
         remove_country_flag = restoring_starting_system_3
         set_country_flag = restored_starting_system
-        add_influence = 50
         add_monthly_resource_mult = {
             resource = unity
             value = @ve_restorer_megastructure_reward

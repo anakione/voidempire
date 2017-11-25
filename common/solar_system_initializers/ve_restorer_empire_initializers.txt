@@ -84,6 +84,13 @@ ve_phoenix_start = {
 	}
 
 	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		
 		spawn_megastructure = {
 			type = "ring_world_ruined"
 			orbit_angle = 90
