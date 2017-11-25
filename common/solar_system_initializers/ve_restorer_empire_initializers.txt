@@ -1,10 +1,10 @@
-@distance = 50
+@distance = 30
 
 ### Void Empire Starting Systems
 
 # Phoenix System
 ve_phoenix_start = {
-	# name = "NAME_ve_Phoenix"
+	name = "Phoenix"
 	class = "sc_g"
 	usage = custom_empire
 
@@ -77,7 +77,7 @@ ve_phoenix_start = {
 	}
 	planet = {
 		class = "pc_ringworld_tech"
-		name = "NAME_Ring_Section_E"
+		name = "The Archive"
 		orbit_angle = 30
 		orbit_distance = 0
 		anomaly = "ve_restorer_anomalies_category"
@@ -119,17 +119,22 @@ ve_phoenix_start = {
 		distance = { min = 5 max = @distance }
 		initializer = "ve_colossus_start_random"
 	}
+	neighbor_system = {
+		distance = { min = 5 max = @distance }
+		initializer = "ve_mine_start"
+	}
 }
 
 ve_ashes_start = {
 	class = "sc_g"
 	usage = custom_empire
-	# name = "NAME_ve_Ashes"
+	name = "Ashes"
 	
 	planet = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 0
+		anomaly = "ve_restorer_anomalies_ashes_category"
 
 		init_effect = {
 			create_ambient_object = {
@@ -204,6 +209,7 @@ ve_ashes_start = {
 ve_colossus_start_random = {
 	class = "rl_standard_stars"
 	usage = custom_empire
+	name = "Colossus"
 	
 	planet = {
 		class = star
@@ -295,7 +301,7 @@ ve_colossus_start_random = {
 			orbit_distance = 6
 			orbit_angle = { min = 90 max = 270 }
 			has_ring = no
-
+			anomaly = "ve_restorer_anomalies_colossus_category"
 			init_effect = {
 				save_event_target_as = megastructure_planet
 			}
@@ -430,5 +436,73 @@ ve_colossus_start_random = {
 				}
 			}
 		}
+	}
+}
+
+# Mining Drones
+ve_mine_start = {
+	class = "rl_standard_stars"
+	name = "Forge"
+	asteroids_distance = 95
+	
+	usage = custom_empire
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	change_orbit = 30
+	
+	planet = {
+		count = 2
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+	}
+	
+	change_orbit = 25
+	
+	planet = {
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 0 max 150 }
+	}
+	planet = {
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 160 max 330 }
+		anomaly = "ve_restorer_anomalies_forge_category"
+	}
+	
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		
+		change_orbit = 20
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	
+	init_effect = {
+		random_system_planet = {
+			limit = { 
+				has_deposit_for = shipclass_mining_station
+				is_star = no
+				NOT = { is_planet_class = pc_gas_giant }
+			}
+			orbital_deposit_tile = {
+				clear_deposits = yes
+				add_deposit = d_immense_mineral_deposit
+			}
+		}	
 	}
 }

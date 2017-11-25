@@ -258,3 +258,87 @@ country_event = {
         }
     }
 }
+
+### Event Triggered by Ashes Anomaly
+ship_event = {
+    id = ve_restorer_events.12
+    title = ve_restorer_events.12.name
+    desc = ve_restorer_events.12.desc
+    picture = GFX_evt_city_ruins
+    location = FROM
+    is_triggered_only = yes
+    
+    option = {
+        name = ve_restorer_events.12.a
+        trigger = {
+            owner = {
+                has_civic = civic_restoration_specialist
+            }
+        }
+        owner = {
+            add_influence = 50
+        }
+        leader = {
+            add_experience = 200
+        }
+    }
+    option = {
+        name = FASCINATING
+    }
+}
+
+### Event Triggered by Colossus Anomaly
+ship_event = {
+    id = ve_restorer_events.13
+    title = ve_restorer_events.13.name
+    desc = ve_restorer_events.13.desc
+    picture = GFX_evt_city_ruins
+    location = FROM
+    is_triggered_only = yes
+    
+    option = {
+        name = ve_restorer_events.13.a
+        trigger = {
+            owner = {
+                has_civic = civic_restoration_specialist
+            }
+        }
+        owner = {
+            add_influence = 50
+        }
+        leader = {
+            add_experience = 200
+        }
+    }
+    option = {
+        name = FASCINATING
+    }
+}
+
+### Event Triggered by Forge Anomaly
+ship_event = {
+    id = ve_restorer_events.14
+    title = ve_restorer_events.14.name
+    desc = ve_restorer_events.14.desc
+    picture = GFX_evt_city_ruins
+    location = FROM
+    is_triggered_only = yes
+    
+    option = {
+        name = ve_restorer_events.14.a
+        trigger = {
+            owner = {
+                has_civic = civic_restoration_specialist
+            }
+        }
+        owner = {
+            add_influence = 50
+        }
+        leader = {
+            add_experience = 200
+        }
+    }
+    option = {
+        name = FASCINATING
+    }
+}

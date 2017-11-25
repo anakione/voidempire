@@ -7,3 +7,27 @@ anomaly = {
         always = yes
     }
 }
+
+anomaly = {
+    category = "ve_restorer_anomalies_ashes_category"
+    event = ve_restorer_events.12
+    potential = {
+        always = yes
+    }
+}
+
+anomaly = {
+    category = "ve_restorer_anomalies_colossus_category"
+    event = ve_restorer_events.13
+    potential = {
+        always = yes
+    }
+}
+
+anomaly = {
+    category = "ve_restorer_anomalies_forge_category"
+    event = ve_restorer_events.14
+    potential = {
+        always = yes
+    }
+}

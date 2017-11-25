@@ -15,3 +15,24 @@ anomaly_category = {
 	on_critical_fail = {
 	}
 }
+
+anomaly_category = {
+	key = "ve_restorer_anomalies_ashes_category"
+	desc = "ve_restorer_anomalies_ashes_desc"
+	picture = GFX_evt_city_ruins
+	level = 1
+}
+
+anomaly_category = {
+	key = "ve_restorer_anomalies_colossus_category"
+	desc = "ve_restorer_anomalies_colossus_desc"
+	picture = GFX_evt_city_ruins
+	level = 1
+}
+
+anomaly_category = {
+	key = "ve_restorer_anomalies_forge_category"
+	desc = "ve_restorer_anomalies_forge_desc"
+	picture = GFX_evt_city_ruins
+	level = 1
+}

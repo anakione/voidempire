@@ -32,3 +32,24 @@
  ve_restorer_events.11.name:0 "Glorious Works Complete"
  ve_restorer_events.11.desc:0 "Our Supreme Architects have completed another masterpiece. Soon, we will surpass the §YAncients§!!"
  ve_restorer_events.11.a:0 "We will usher in a new §YAge of Legends§!"
+
+ ve_restorer_anomalies_ashes_category:0 "Ruined Ringworld"
+ ve_restorer_anomalies_ashes_desc:0 "We have discovered a remnant of the §YAge of Legends§!. Our chief restorers are eager to examine the ruin."
+
+ ve_restorer_anomalies_colossus_category:0 "Ancient Ruins"
+ ve_restorer_anomalies_colossus_desc:0 "We have discovered a remnant of the §YAge of Legends§!. Our chief restorers are eager to examine the ruin."
+
+ ve_restorer_anomalies_forge_category:0 "Ancient Mining Network"
+ ve_restorer_anomalies_forge_desc:0 "We have stumbled across the remanants of a sophisticated mining network created by the §YAncients§!. With luck, we can restore the mining network."
+
+ ve_restorer_events.12.name:0 "The Ashes"
+ ve_restorer_events.12.desc:0 "An extensive survey of the ringworld, now termed §YAshes§!, reveals that it experienced catastrophic failure during the earliest moments of the §YCollapse§!. Unfortunately, the archival and automated maintenance systems are not responding. We must repair the damage, but it appears it will be significantly more challenging than restoring our own home."
+ ve_restorer_events.12.a:0 "One day, we will restore §YAshes§!!"
+
+ ve_restorer_events.13.name:0 "The Colossus"
+ ve_restorer_events.13.desc:0 "The Chief Restoration Officer's report is full of awe at the marvelous craftsmanship of §YThe Colossus§!. Built during the peak of the §YAge of Legends§!, it highlights the majesty and sophistication of the §YAncients§!. The final section of the report expresses a fervent hope to one day restore this marvel."
+ ve_restorer_events.13.a:0 "Even now, the §YAncients§! inspire us to greatness."
+
+ ve_restorer_events.14.name:0 "The Forge"
+ ve_restorer_events.14.desc:0 "The mining network, now termed §YThe Forge§!, is ready. We have learned much of the §YAncient§!'s wisdom by examining its inner workings."
+ ve_restorer_events.14.a:0 "Develop these mines!"
