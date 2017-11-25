@@ -1,4 +1,4 @@
-@distance = 30
+@distance = 100
 
 ### Void Empire Starting Systems
 
@@ -112,15 +112,15 @@ ve_phoenix_start = {
 	}
 
 	neighbor_system = {
-		distance = { min = 5 max = @distance }
+		distance = { min = 0 max = @distance }
 		initializer = "ve_ashes_start"
 	}
 	neighbor_system = {
-		distance = { min = 5 max = @distance }
+		distance = { min = 0 max = @distance }
 		initializer = "ve_colossus_start_random"
 	}
 	neighbor_system = {
-		distance = { min = 5 max = @distance }
+		distance = { min = 0 max = @distance }
 		initializer = "ve_mine_start"
 	}
 }
