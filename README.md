@@ -1,4 +1,9 @@
-# Void Empires Design
+# Void Empires
+
+# How to Install
+
+1. Clone repo to `D:\Documents\Paradox Interactive\Stellaris\mod\voidempire`
+1. Copy `voidempire.mod` to `D:\Documents\Paradox Interactive\Stellaris\mod`
 
 ## Designs
 
