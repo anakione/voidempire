@@ -1,0 +1,48 @@
+# Age of Legends Institute
+
+ve_building_age_of_legends_institute = {
+	base_buildtime = 360
+	is_listed = yes
+	planet_unique = yes
+
+	cost = {
+		minerals = 150
+        influence = 50
+	}
+	
+	produced_resources = {
+		engineering_research = 3
+		society_research = 3
+		influence = 0.25
+	}
+
+	required_resources = {
+		energy = 2
+	}
+		
+	adjacency_bonus = {
+		tile_building_resource_minerals_add = 1
+	}
+	
+	planet_modifier = {
+		pop_citizen_happiness = 0.05
+	}
+	
+	potential = {
+        owner = { 
+			has_civic = civic_restoration_specialist
+			has_swapped_tradition = tr_ve_expansion_colonization_fever_restoration_specialist
+        }
+		planet = {
+            is_planet_class = pc_ringworld_habitable
+		}
+	}
+
+	destroy_if = {
+		NOT = {
+            owner = { has_civic = civic_restoration_specialist }
+        }
+	}
+	
+	ai_replace = no
+}

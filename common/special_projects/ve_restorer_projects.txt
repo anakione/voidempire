@@ -16,3 +16,23 @@ special_project = {
         ship_event = { id = ve_restorer_events.2 }
     }
 }
+
+special_project = {
+    key = ve_RESTORER_PROJECT_SHIPYARD
+    cost = 0
+    days_to_research = 360
+    tech_department = engineering_technology
+    picture = GFX_evt_city_ruins
+    icon = "gfx/interface/icons/situation_log/situation_log_engineering.dds"
+    event_scope = ship_event
+    requirements = {
+        shipclass_science_ship = 1
+        leader = scientist
+        skill = 5
+    }
+
+    on_success = {
+        ship_event = { id = ve_restorer_events.17 }
+    }
+
+}

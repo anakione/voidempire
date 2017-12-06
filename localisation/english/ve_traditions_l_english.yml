@@ -1,0 +1,22 @@
+﻿l_english:
+ 
+ tradition_expansion_ve_restoration_specialist:0 "Resurgance"
+ tradition_expansion_ve_restoration_specialist_desc:0 "We must restore the wonders of the §YAge of Legends§!"
+ 
+ tr_ve_expansion_adopt_restoration_specialist:0 "Resurgance Traditions"
+ tr_ve_expansion_adopt_restoration_specialist_desc:0 "$tradition_expansion_ve_restoration_specialist_desc$\n\n$tr_ve_expansion_adopt_restoration_specialist_effect$\n\n$tr_ve_expansion_finish_restoration_specialist_effect$"
+ 
+ tr_ve_expansion_adopt_restoration_specialist_effect:0 "$tr_expansion_adopt_effect$"
+ tr_ve_expansion_finish_restoration_specialist_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_ve_expansion_adopt_restoration_specialist$ will increase our £influence  §Y$country_resource_influence_add$§! by §Y1§!."
+
+ tr_ve_expansion_colonization_fever_restoration_specialist:0 "Rennaissance"
+ tr_ve_expansion_colonization_fever_restoration_specialist_desc:0 "Unlocks £building  §YAge of Legends Institute§!"
+ tr_ve_expansion_colonization_fever_restoration_specialist_delayed:0 "Only by looking to the past can we chart our future."
+
+ tr_ve_expansion_a_new_life_restoration_specialist:0 "Repopulate the Ring"
+ tr_ve_expansion_a_new_life_restoration_specialist_desc:0 "£pops  Pop §Y$MOD_POP_GROWTH_SPEED$§! increased by §G+25%§!"
+ tr_ve_expansion_a_new_life_restoration_specialist_delayed:0 "The empty sectors of the Ring must not only be restored, but populated with a new generation."
+
+ tr_ve_expansion_courier_network_restoration_specialist:0 "Built to Last"
+ tr_ve_expansion_courier_network_restoration_specialist_desc:0 "§Y$shipclass_military_station_hit_points_mult$§! increased by §G+25%§!\n§Y$shipclass_military_station_damage_mult$§! increased by §G+25%§!"
+ tr_ve_expansion_courier_network_restoration_specialist_delayed:0 "The Ancients built wonders that withstood the ages. We have much to learn from them."

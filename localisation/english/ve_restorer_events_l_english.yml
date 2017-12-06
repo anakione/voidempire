@@ -15,8 +15,6 @@
  ve_restorer_events.3.a:0 "From the ashes, a Phoenix shall rise!"
  ve_restorer_events.3.b:0 "We will forge our own path, separate from the §YAncients§!"
 
- ve_restorer_get_started:0 "The Phoenix Rises!"
-
  ve_restorer_events.5.name:0 "Recover Ancient Splendor"
  ve_restorer_events.5.desc:0 "Our restoration efforts are proceeding smoothly. The automated repair facility has been greatly expanded and is ready to repair the next Sector."
  ve_restorer_events.5.a:0 "Nothing is beyond repair. Proceed!"
@@ -53,3 +51,17 @@
  ve_restorer_events.14.name:0 "The Forge"
  ve_restorer_events.14.desc:0 "The mining network, now termed §YThe Forge§!, is ready. We have learned much of the §YAncient§!'s wisdom by examining its inner workings."
  ve_restorer_events.14.a:0 "Develop these mines!"
+
+ ve_restorer_events.15.name:0 "Lost Glory"
+ ve_restorer_events.15.desc:0 "Since the dreaded days of §YThe Collapse§!, our society has been fragmented. The people will rally to a leader who can restore the glory of old."
+ ve_restorer_events.15.a:0 "The people will be united when our work is complete!"
+
+ ve_restorer_events.16.name:0 "Ancient Shipyards"
+ ve_restorer_events.16.desc:0 "The brighest minds at the Age of Legends Institute have discovered some damaged, but highly advanced, shipyard facilities. With our newfound restoration prowess, they hope to have the facilities online soon."
+ ve_restorer_events.16.a:0 "By all means, repair those shipyards!"
+
+ ve_RESTORER_PROJECT_SHIPYARD:0 "Repair Ancient Shipyards"
+ ve_RESTORER_PROJECT_SHIPYARD_desc:0 "By applying our newfound restoration expertise, we can repair these damaged facilities."
+
+ ve_restorer_events.17.name:0 "Ancient Shipyards"
+ ve_restorer_events.17.desc:0 "The automated shipyard facilities have been repaired. We learned much by studying the wisdom of the §YAncients§!."

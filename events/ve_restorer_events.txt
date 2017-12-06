@@ -195,6 +195,10 @@ country_event = {
         has_country_flag = restoring_starting_system_3
     }
 
+    immediate = {
+        country_event = { id = ve_restorer_events.16 days=360 random=720 }
+    }
+
     option = {
         name = ve_restorer_events.9.a
         trigger = {
@@ -207,6 +211,12 @@ country_event = {
             value = @ve_restorer_megastructure_reward
             min = @ve_restorer_megastructure_reward_min
             max = @ve_restorer_megastructure_reward_max
+        }
+        if = {
+            limit = {
+                has_modifier = ve_restorer_faded_glory
+            }
+            remove_modifier = ve_restorer_faded_glory
         }
     }
 }
@@ -342,3 +352,100 @@ ship_event = {
         name = FASCINATING
     }
 }
+
+# Event to initialize faded glory modifier
+country_event = {
+    id = ve_restorer_events.15
+    title = ve_restorer_events.15.name
+    desc = ve_restorer_events.15.desc
+    picture = GFX_evt_city_ruins
+    show_sound = event_radio_chatter
+    hide_window = no
+    is_triggered_only = yes
+
+    trigger = {
+        has_civic = civic_restoration_specialist
+        NOT = {
+            has_modifier = ve_restorer_faded_glory
+        }
+    }
+
+    option = {
+        name = ve_restorer_events.15.a
+        add_modifier = { modifier = ve_restorer_faded_glory }
+    }
+}
+
+# Event to initialize ancient shipyards project
+country_event = {
+    id = ve_restorer_events.16
+    title = ve_restorer_events.16.name
+    desc = ve_restorer_events.16.desc
+    picture = GFX_evt_city_ruins
+    show_sound = event_radio_chatter
+    hide_window = no
+    is_triggered_only = yes
+
+    trigger = {
+        has_civic = civic_restoration_specialist
+        NOT = {
+            has_modifier = ve_restorer_ancient_shipyards
+        }
+    }
+
+    immediate = {
+        capital_scope = {
+            solar_system = {
+                random_system_planet = {
+                    limit = {
+                        is_capital = yes
+                    }
+                    save_event_target_as = homeworld
+                }
+            }
+        }
+    }
+
+    option = {
+        name = ve_restorer_events.16.a
+
+        # need to scope to capital
+        enable_special_project = {
+            name = ve_RESTORER_PROJECT_SHIPYARD
+            location = event_target:homeworld
+            owner = root
+        }
+    }
+}
+
+# Event to apply Ancient Shipyards modifier - triggered by research project
+ship_event = {
+    id = ve_restorer_events.17
+    title = ve_restorer_events.17.name
+    desc = ve_restorer_events.17.desc
+    picture = GFX_evt_city_ruins
+    show_sound = event_radio_chatter
+    hide_window = no
+    is_triggered_only = yes
+
+    trigger = {
+        owner = {
+            has_civic = civic_restoration_specialist
+            NOT = {
+                has_modifier = ve_restorer_ancient_shipyards
+            }
+        }
+    }
+
+    option = {
+        name = FASCINATING
+        owner = {
+            add_modifier = {
+                modifier = ve_restorer_ancient_shipyards
+            }
+        }
+    }
+}
+
+
+

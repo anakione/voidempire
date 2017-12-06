@@ -15,6 +15,7 @@ event = {
                 }
             }
             country_event = { id = ve_empire_init_events.2 }
+            country_event = { id = ve_restorer_events.15 days=30 random=30 }
         }
     }
 }
