@@ -14,6 +14,5 @@ ve_restorer_do_not_colonize_terrestrial_worlds = {
 }
 
 ve_restorer_ancient_shipyards = {
-    navy_size_add = 10
-    navy_size_mult = 0.20
+    navy_size_mult = 0.15
 }

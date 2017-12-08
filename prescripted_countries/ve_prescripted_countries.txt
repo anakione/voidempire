@@ -1,0 +1,70 @@
+ve_kharazi_restorers = {
+    name = "Kharazi Restorers"
+    adjective = "PRESCRIPTED_ve_adjective_kharazi_restorers"
+    spawn_enabled = no
+    spawn_as_fallen = no
+    ignore_portrait_duplication = yes
+
+    ship_prefix = "PRESCRIPTED_ve_ship_prefix_kharazi_restorers"
+
+    species = {
+        class = "HUM"
+        portrait = "humanoid_hp_11"
+        name = "PRESCRIPTED_ve_species_name_kharazi"
+        plural = "PRESCRIPTED_ve_species_plural_kharazi"
+        adjective = "PRESCRIPTED_ve_species_adjective_kharazi"
+        name_list = "HUM4"
+        trait = "trait_talented"
+        trait = "trait_enduring"
+        trait = "trait_nonadaptive"
+        trait = "trait_industrious"
+    }
+
+    room = "personality_decadent_hierarchy_room"
+
+    ethic = ethic_materialist
+    ethic = ethic_xenophobe
+    ethic = ethic_authoritarian
+    authority = "auth_imperial"
+    government = gov_restoration_court
+    advisor_voice_type = "l_the_technocrat"
+    civics = { "civic_mining_guilds" "civic_restoration_specialist" }
+
+    weapon = "tech_lasers_1"
+    ftl = hyperdrive
+
+    planet_name = PRESCRIPTED_ve_planet_name_kharazi
+    planet_class = "pc_alpine"
+    system_name = PRESCRIPTED_ve_system_name_kharazi
+    initializer = ve_phoenix_start
+
+    graphical_culture = "humanoid_01"
+    city_graphical_culture = "humanoid_01"
+
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"teal"
+			"teal"
+			"null"
+			"null"
+		}
+	}
+
+    ruler = {
+        name = "PRESCRIPTED_ve_ruler_name_kharazi"
+        gender = male
+        portrait = "humanoid_hp_11"
+        texture = 0
+        hair = 2
+        clothes = 0
+        ruler_title = "PRESCRIPTED_ve_ruler_title_kharazi"
+    }
+}

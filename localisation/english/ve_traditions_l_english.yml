@@ -6,8 +6,8 @@
  tr_ve_expansion_adopt_restoration_specialist:0 "Resurgance Traditions"
  tr_ve_expansion_adopt_restoration_specialist_desc:0 "$tradition_expansion_ve_restoration_specialist_desc$\n\n$tr_ve_expansion_adopt_restoration_specialist_effect$\n\n$tr_ve_expansion_finish_restoration_specialist_effect$"
  
- tr_ve_expansion_adopt_restoration_specialist_effect:0 "$tr_expansion_adopt_effect$"
- tr_ve_expansion_finish_restoration_specialist_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_ve_expansion_adopt_restoration_specialist$ will increase our £influence  §Y$country_resource_influence_add$§! by §Y1§!."
+ tr_ve_expansion_adopt_restoration_specialist_effect:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+25%§!"
+ tr_ve_expansion_finish_restoration_specialist_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_ve_expansion_adopt_restoration_specialist$ will increase our £influence  §Y$country_resource_influence_add$§! by §Y0.5§!."
 
  tr_ve_expansion_colonization_fever_restoration_specialist:0 "Rennaissance"
  tr_ve_expansion_colonization_fever_restoration_specialist_desc:0 "Unlocks £building  §YAge of Legends Institute§!"

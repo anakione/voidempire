@@ -54,7 +54,7 @@ tr_expansion_adopt = {
 		}
 
 		modifier = {
-			planet_colony_development_speed_mult = 1.00
+			pop_government_ethic_attraction = 0.25
 		}
 
 		weight = {
@@ -125,7 +125,8 @@ tr_expansion_finish = {
 			has_civic = civic_restoration_specialist
 		}
 		modifier = {
-			country_resource_influence_add = 1
+			country_resource_influence_add = 0.5
+			ascension_perks_add = 1
 		}
 		weight = {
 			factor = 1

@@ -127,7 +127,6 @@ ve_phoenix_start = {
 
 ve_ashes_start = {
 	class = "sc_g"
-	usage = custom_empire
 	name = "Ashes"
 	
 	planet = {
@@ -208,7 +207,6 @@ ve_ashes_start = {
 
 ve_colossus_start_random = {
 	class = "rl_standard_stars"
-	usage = custom_empire
 	name = "Colossus"
 	
 	planet = {
@@ -444,8 +442,6 @@ ve_mine_start = {
 	class = "rl_standard_stars"
 	name = "Forge"
 	asteroids_distance = 95
-	
-	usage = custom_empire
 	
 	planet = {
 		count = 1

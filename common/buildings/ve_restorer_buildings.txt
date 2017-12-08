@@ -11,8 +11,8 @@ ve_building_age_of_legends_institute = {
 	}
 	
 	produced_resources = {
-		engineering_research = 3
-		society_research = 3
+		engineering_research = 2
+		society_research = 2
 		influence = 0.25
 	}
 
