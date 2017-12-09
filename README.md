@@ -9,35 +9,37 @@
 
 ### Civic
 
-  - Requires one point of Materialist
-  - Cannot colonize worlds
-  - Gains unity from restoring damaged megastructures
-  - Starts on a Ringworld
-  - Early access to Megastructure Restoration
-  - +10% border range
-  - -20% Influence
-  
-** To Do:**
-- **Civic icon**
+- Requires one point of Materialist
+- Cannot colonize worlds
+- Gains unity from restoring damaged megastructures
+- Starts on a Ringworld
+- Early access to Megastructure Restoration
+- Has access to Resurgance Tradition Swap
+- -33% Influence
 
-### Resurgance (swapped with Expansion)
+### To Do
 
-- Adoption: +100% colony development speed
-  - *We must restore the wonders of the Age of Legends*
-- Reach for the Stars: Frontier Outposts influence cost due to distance halved
-  - *The frontiers of our star nation are being pushed ever forwards. Soon, nothing in this galaxy will lie beyond our grasp...*
-- Galactic Ambition: Frontier Outpost influence maintenance -50%
-  - *The banner of our great empire will one day be as common as hydrogen throughout the galaxy.*
-- **Repopulate the Ring**: +25% growth rate
-  - *The empty sectors of the Ring must not only be restored, but populated with a new generation.*
-  - Use **A New Life** icon
-- **Rennaissance**: Unlocks **Age of Legends Institute** building (planetary unique, +3 eng, +3 society, +5% happiness, +.25 influence)
-  - *Only by looking to the past can we see to our future.*
-  - Use **Cyber-Comms** icon
-- **The Test of Time**: +25% space station health and damage
-  - *The Ancients built wonders that withstood the ages. We have much to learn from them.* 
-  - Use **Self-Preservation Protocols** icon
-- **Finisher: +1 influence**
+- Remove -33% influence from civic and instead add this to 'Lost Glory' modifier applied to Restoration Specialist at game start
+- Restoring Ringworlds should be an event chain
+  - Start.2 cost 500 minerals take 6 months
+  - Start.3 cost 1000 minerals take 12 months
+  - Start.4 cost 2000 minerals take 18 months
+  - neighbor.1 cost 5000 minerals take 24 months
+  - neighbor.2 cost 10000 minerals take 30 months
+  - neighbor.3 cost 10000 minerals take 36 months
+  - neighbor.4 cost 10000 minerals take 42 months
+- Remove 2nd spawning megastructure
+- Add random neighbor system with ruined Ancient Laboratory
+  - Adds 50 to each science. Costs 10k to restore. Takes 6 years
+- Add random neighbor system with ruined Ancient Administration Complex
+  - Adds 50 energy and +20% border range. Costs 10k to restore. Takes 6 years
+- Add random neighbor system with ruined Ancient Fleet Depot
+  - Adds +10 naval capacity and +10% naval capacity. Costs 10k to restore. Takes 6 years
+- Add random neighbor system with ruined Ancient Forge
+  - Adds +50 minerals. Costs 10k to restore. Takes 6 years
+- Restoring ringworld1, ringworld2, ruined lab, ruined admin complex, and ruined fleet depot removes 'Lost Glory' modifier
+
+
 
 ## Planetary Conservationists
 - Use with Eden system
