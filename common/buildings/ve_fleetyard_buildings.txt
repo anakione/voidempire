@@ -1,0 +1,69 @@
+# Fleetyard Buildings
+
+Fleetyard_HQ = {
+	base_buildtime = 360
+	is_listed = yes
+	planet_unique = yes
+
+	cost = {
+		minerals = 150
+        influence = 50
+	}
+	
+	produced_resources = {
+		engineering_research = 4
+        physics_research = 4
+	}
+
+	required_resources = {
+		energy = 2
+	}		
+	
+	planet_modifier = {
+        spaceport_ship_build_speed_mult = 0.10
+        spaceport_ship_build_cost_mult = -0.10
+	}
+	
+	potential = {
+        owner = { 
+			has_civic = civic_restoration_specialist
+        }
+		planet = {
+            is_planet_class = ve_fleetyard
+		}
+	}
+	ai_replace = no
+}
+
+Fleetyard_factory = {
+	base_buildtime = 360
+	is_listed = yes
+
+	cost = {
+		minerals = 150
+        influence = 50
+	}
+	
+	produced_resources = {
+		engineering_research = 4
+	}
+
+	required_resources = {
+		energy = 2
+	}		
+	
+	planet_modifier = {
+		spaceport_ship_build_speed_mult = 0.10
+        spaceport_ship_build_cost_mult = -0.10
+	}
+	
+	potential = {
+        owner = { 
+			has_civic = civic_restoration_specialist
+        }
+		planet = {
+            is_planet_class = ve_fleetyard
+		}
+	}
+	ai_replace = no
+}
