@@ -2,7 +2,7 @@
 
 ve_fleetyard_factory = {
 	base_buildtime = 80
-	
+	is_listed = no #temporarily do not list this
 	cost = {
 		minerals = 50
 	}

@@ -22,6 +22,14 @@ civic_restoration_specialist = {
         megastructure_build_speed_mult = 1
         max_minerals = 20000
     }
+
+    ### Requires Utopia DLC for megastructures
+    playable = { host_has_dlc = "Utopia" }
+
+    ### AIs should not use this civic
+    random_weight = {
+        base = 0
+    }
 }
 
 civic_planetary_conservationist = {
@@ -45,5 +53,13 @@ civic_planetary_conservationist = {
     modifier = {
         pop_environment_tolerance = -1.00
         pc_nuked_habitability = -1.00
+    }
+
+    ### Requires Utopia DLC for megastructures
+    playable = { host_has_dlc = "Utopia" }
+
+    ### AIs should not use this civic
+    random_weight = {
+        base = 0
     }
 }
