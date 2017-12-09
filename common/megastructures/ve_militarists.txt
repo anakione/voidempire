@@ -78,12 +78,12 @@ ve_fleetyard = {
 	
 	on_build_complete = {
 		spawn_planet = {
-			class = "pc_starbase_blank"
+			class = "pc_ringworld_habitable"
 			location = fromfrom.planet
 			orbit_location = yes
 			orbit_angle_offset = 45
 			orbit_distance_offset = 9.899
-			size = 1
+			size = 6
 			has_ring = no
 			
 			init_effect = {
@@ -110,9 +110,6 @@ ve_fleetyard = {
 				copy_orbital_tile = fromfrom.planet
 				set_planet_flag = megastructure
 				set_planet_flag = habitat
-				create_correct_spaceport = yes
-				set_correct_spaceport_planet = yes
-				set_correct_spaceport_name = yes
 			}
 		}
 		fromfrom.planet = {
