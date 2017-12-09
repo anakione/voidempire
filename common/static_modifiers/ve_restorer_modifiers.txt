@@ -4,7 +4,7 @@ ve_restorer_faded_glory = {
 }
 
 ve_restorer_get_started = {
-    megastructure_build_speed_mult = 2
+    megastructure_build_speed_mult = 3
 }
 
 ve_restorer_do_not_colonize_terrestrial_worlds = {

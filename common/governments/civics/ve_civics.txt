@@ -18,9 +18,8 @@ civic_restoration_specialist = {
     modifier = {
         pop_environment_tolerance = -1.00
         pc_nuked_habitability = -1.00
-        country_border_mult = 0.10
         country_resource_influence_mult = -0.33
-        megastructure_build_speed_mult = 4
+        megastructure_build_speed_mult = 1
         max_minerals = 20000
     }
 }

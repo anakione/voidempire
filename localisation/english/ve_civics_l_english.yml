@@ -2,7 +2,7 @@
  civic_restoration_specialist:0 "Restoration Specialist"
  civic_restoration_specialist_desc:0 "This society formed from the ashes of an ancient, highly advanced society that has long since faded. Its members are determined to restore their former glory."
  
- civic_tooltip_restoration_specialist_effects:0 "Use with §Y$ve_phoenix_start_NAME$§! start\nStarts on a §YRingworld§!\nCan only §YColonize Megastructures§!\nCannot §YColonize Planets§!\nGains £unity  §YUnity§! by repairing Megastructures.\nEarly access to §Y$feature_megaengineering$§!\n$MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$ §G+400%\n§!Monthly Influence §R-33% £influence \n§!Border Range §G+10%§!"
+ civic_tooltip_restoration_specialist_effects:0 "Use with §Y$ve_phoenix_start_NAME$§! start\nStarts on a §YRingworld§!\nCan only §YColonize Megastructures§!\nCannot §YColonize Planets§!\nGains £unity  §YUnity§! by repairing Megastructures.\nEarly access to §Y$feature_megaengineering$§!\n$MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$ §G+100%\n§!Monthly Influence §R-33% £influence §!"
  
  civic_planetary_conservationist:0 "Planetary Conservationist"
  civic_planetary_conservationist_desc:0 "This society believes it has a divine mission to keep the planets in this galaxy pristine and free from the spoilage of colonization."

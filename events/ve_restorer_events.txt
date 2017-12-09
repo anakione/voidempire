@@ -1,8 +1,8 @@
 namespace = ve_restorer_events
 
-@ve_restorer_megastructure_reward = 60
-@ve_restorer_megastructure_reward_min = 1200
-@ve_restorer_megastructure_reward_max = 8000
+@ve_restorer_megastructure_reward = 48
+@ve_restorer_megastructure_reward_min = 1000
+@ve_restorer_megastructure_reward_max = 10000
 
 ### Event Triggered by Anomaly
 ### Initiates Research Project
@@ -353,7 +353,7 @@ ship_event = {
     }
 }
 
-# Event to initialize faded glory modifier
+### Event to initialize faded glory modifier
 country_event = {
     id = ve_restorer_events.15
     title = ve_restorer_events.15.name
@@ -376,7 +376,7 @@ country_event = {
     }
 }
 
-# Event to initialize ancient shipyards project
+### Event to initialize ancient shipyards project
 country_event = {
     id = ve_restorer_events.16
     title = ve_restorer_events.16.name
@@ -418,7 +418,7 @@ country_event = {
     }
 }
 
-# Event to apply Ancient Shipyards modifier - triggered by research project
+### Event to apply Ancient Shipyards modifier - triggered by research project
 ship_event = {
     id = ve_restorer_events.17
     title = ve_restorer_events.17.name
