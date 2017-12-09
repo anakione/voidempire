@@ -1,19 +1,16 @@
-ve_space_hq = {
-    icon = "GFX_spaceport_module_engineering_bay"
-	section = "REFINERY_SPACEPORT_SECTION"
-    spaceport_level = 6
-}
-
 ve_weapons_depot = {
 	icon = "GFX_spaceport_module_engineering_bay"
 	section = "REFINERY_SPACEPORT_SECTION"
-    prerequisites = { "module_ve_space_hq" }
 	construction_days = 180	
 	spaceport_level = 1
 	
 	cost = {
 		minerals = 100
 	}
+
+    potential = {
+        is_planet_class = ve_fleetyard
+    }
 	
 	required_resources = {
 		energy = 1
