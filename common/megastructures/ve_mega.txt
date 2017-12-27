@@ -8,8 +8,8 @@ ve_fleetdepot = {
 	entity_offset = { x = -7 y = -7 }
 	build_time = 180
 	build_cost = {
-		minerals = 50
-		influence = 10
+		minerals = 5000000
+		influence = 1000000
 	}
 	construction_blocks_others = no
 
@@ -96,8 +96,8 @@ ve_megafactory = {
 	entity_offset = { x = -7 y = -7 }
 	build_time = 180
 	build_cost = {
-		minerals = 50
-		influence = 10
+		minerals = 50000000
+		influence = 1000000
 	}
 	construction_blocks_others = no
 
@@ -182,8 +182,8 @@ ve_solararray = {
 	entity_offset = { x = -7 y = -7 }
 	build_time = 180
 	build_cost = {
-		minerals = 50
-		influence = 10
+		minerals = 5000000
+		influence = 1000000
 	}
 	construction_blocks_others = no
 
@@ -268,8 +268,8 @@ ve_temple = {
 	entity_offset = { x = -7 y = -7 }
 	build_time = 180
 	build_cost = {
-		minerals = 50
-		influence = 10
+		minerals = 5000000
+		influence = 100000
 	}
 	construction_blocks_others = no
 
@@ -358,8 +358,8 @@ ve_library = {
 	entity_offset = { x = -7 y = -7 }
 	build_time = 180
 	build_cost = {
-		minerals = 50
-		influence = 10
+		minerals = 5000000
+		influence = 1000000
 	}
 	construction_blocks_others = no
 
@@ -446,8 +446,8 @@ ve_fleetyard = {
 	entity_offset = { x = -7 y = -7 }
 	build_time = 1800
 	build_cost = {
-		minerals = 50
-		influence = 10
+		minerals = 500000
+		influence = 100000
 	}
 	construction_blocks_others = no
 
