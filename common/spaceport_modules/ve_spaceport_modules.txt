@@ -2,14 +2,16 @@ ve_weapons_depot = {
 	icon = "GFX_spaceport_module_engineering_bay"
 	section = "REFINERY_SPACEPORT_SECTION"
 	construction_days = 180	
-	spaceport_level = 1
+	spaceport_level = 7
 	
 	cost = {
 		minerals = 100
 	}
 
     potential = {
-        is_planet_class = ve_fleetyard
+		planet = {
+			is_planet_class = ve_fleetyard
+		}
     }
 	
 	required_resources = {
@@ -39,8 +41,7 @@ ve_weapons_array = {
 	icon = "GFX_spaceport_module_engineering_bay"
 	section = "REFINERY_SPACEPORT_SECTION"
 	construction_days = 180	
-	prerequisites = { "tech_doctrine_fleet_support" }
-	spaceport_level = 1
+	spaceport_level = 7
 	
 	cost = {
 		minerals = 100
@@ -71,8 +72,7 @@ ve_defensive_array = {
 	icon = "GFX_spaceport_module_engineering_bay"
 	section = "REFINERY_SPACEPORT_SECTION"
 	construction_days = 180	
-	prerequisites = { "tech_doctrine_fleet_support" }
-	spaceport_level = 1
+	spaceport_level = 7
 	
 	cost = {
 		minerals = 100

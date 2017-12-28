@@ -1,13 +1,13 @@
 # Fleetyard Buildings
 
 Fleetyard_HQ = {
-	base_buildtime = 360
+	base_buildtime = 1800
 	is_listed = yes
 	planet_unique = yes
 
 	cost = {
-		minerals = 1500000
-        	influence = 5000000
+		minerals = 600
+		influence = 50
 	}
 	
 	produced_resources = {
@@ -16,17 +16,17 @@ Fleetyard_HQ = {
 	}
 
 	required_resources = {
-		energy = 2
+		energy = 8
 	}		
 	
 	planet_modifier = {
         spaceport_ship_build_speed_mult = 0.10
-        spaceport_ship_build_cost_mult = -0.10
+        spaceport_ship_build_cost_mult = -0.10		
 	}
 	
 	potential = {
         owner = { 
-		has_civic = civic_restoration_specialist
+			has_civic = civic_restoration_specialist
         }
 		planet = {
             is_planet_class = ve_fleetyard
@@ -36,12 +36,11 @@ Fleetyard_HQ = {
 }
 
 Fleetyard_factory = {
-	base_buildtime = 360
+	base_buildtime = 900
 	is_listed = yes
 
 	cost = {
-		minerals = 15000000
-        	influence = 5000000
+		minerals = 600
 	}
 	
 	produced_resources = {
@@ -49,20 +48,26 @@ Fleetyard_factory = {
 	}
 
 	required_resources = {
-		energy = 2
+		energy = 4
 	}		
 	
 	planet_modifier = {
-		spaceport_ship_build_speed_mult = 0.10
-        	spaceport_ship_build_cost_mult = -0.10
+		spaceport_ship_build_speed_mult = 0.05
+		spaceport_ship_build_cost_mult = -0.05
 	}
 	
 	potential = {
 		owner = { 
 			has_civic = civic_restoration_specialist
-			}
-	planet = {
-            	is_planet_class = ve_fleetyard
+		}
+		planet = {
+			is_planet_class = ve_fleetyard
+		}
+	}
+
+	allow = {
+		planet = {
+			has_building = "Fleetyard_HQ"
 		}
 	}
 	ai_replace = no

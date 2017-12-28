@@ -17,6 +17,7 @@ planet_event = {
             OR = {
                 is_planet_class = pc_habitat
                 is_planet_class = pc_ringworld_habitable
+                is_planet_class = ve_fleetyard
             }
         }
     }
@@ -61,6 +62,7 @@ country_event = {
                 OR = {
                     is_planet_class = pc_habitat
                     is_planet_class = pc_ringworld_habitable
+                    is_planet_class = ve_fleetyard
                 }
             }
         }
